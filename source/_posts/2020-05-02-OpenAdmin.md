@@ -1,7 +1,8 @@
 ---
-title: OpenAdmin HTB
+title: OpenAdmin HTB Writeup
 date: '2020-05-02 19:19:00'
 categories: ["htb"]
+banner_img: /img/OpenAdmin.png
 ---
 
 

@@ -456,7 +456,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://images2.alphacoders.com/133/1331312.png
+  banner_img: /img/default_wallpaper.png
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -528,7 +528,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: /img/default_wallpaper.png
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -564,10 +564,10 @@ post:
       enable: true
       # 每个字词的长度，建议：中文≈2，英文≈5，中英混合可自行调节
       # Average word length (chars count in word), ZH ≈ 2, EN ≈ 5
-      awl: 2
+      awl: 5
       # 每分钟阅读字数，如果大部分是技术文章可适度调低
       # Words per minute
-      wpm: 60
+      wpm: 30
 
     # 浏览量计数
     # Number of visits
@@ -576,7 +576,7 @@ post:
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
-      source: "busuanzi"
+      source: "leancloud"
 
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
@@ -891,7 +891,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: /img/Archive_Wallpaper.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -902,7 +902,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/Categories_Wallpaper.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -931,7 +931,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/Tags_Wallpaper.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:

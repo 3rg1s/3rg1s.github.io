@@ -1,11 +1,10 @@
 ---
-title: 'Obscurity HTB'
+title: Obscurity HTB Writeup
 date: '2020-05-09 20:00:00'
 author: fuxsocy
 description: Obscurity By Fuxsocy
-image: 
-    path: '/images/obscurity.png'
 categories: ["htb"]
+banner_img: /img/Obscurity.png
 ---
 
 ## User

@@ -1,7 +1,8 @@
 ---
-title: Traverxec HTB
+title: Traverxec HTB Writeup
 date: '2020-04-11 21:50:00'
 categories: ["htb"]
+banner_img: /img/Traverxec.png
 ---
 
 ## User

@@ -1,11 +1,10 @@
 ---
-title: 'Traceback HTB'
+title: Traceback HTB Writeup
 date: '2020-08-15 19:50:00'
 author: fuxsocy
 description: Traceback By Fuxsocy
-image: 
-    path: '/images/traceback.png'
 categories: ["htb"]
+banner_img: /img/Traceback.png
 ---
 
 ### User

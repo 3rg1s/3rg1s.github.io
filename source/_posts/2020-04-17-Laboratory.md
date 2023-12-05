@@ -1,7 +1,8 @@
 ---
-title: Laboratory HTB
+title: Laboratory HTB Writeup
 date: '2021-04-17 16:00:00'
 categories: ["htb"]
+banner_img: /img/Laboratory.png
 ---
 
 # Laboratory 🧪
