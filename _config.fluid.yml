@@ -572,11 +572,11 @@ post:
     # 浏览量计数
     # Number of visits
     views:
-      enable: false
+      enable: true
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
-      source: "leancloud"
+      source: "busuanzi"
 
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
@@ -948,18 +948,18 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/About_Wallpaper.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
-  name: "Fluid"
+  name: "#rg1s"
   intro: "Born to leash those who were borned unleashed"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/3rg1s", tip: "GitHub" }
+    # - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    
 
 
 #---------------------------
@@ -1002,19 +1002,19 @@ links:
   # Member item of page
   items:
     - {
-      title: "Fluid Blog",
+      title: "Sbnotes",
       intro: "主题博客",
       link: "https://hexo.fluid-dev.com/",
       avatar: "/img/favicon.png"
     }
     - {
-      title: "Fluid Docs",
+      title: "Dating4Pets",
       intro: "主题使用指南",
       link: "https://hexo.fluid-dev.com/docs/",
       avatar: "/img/favicon.png"
     }
     - {
-      title: "Fluid Repo",
+      title: "QA",
       intro: "主题 GitHub 仓库",
       link: "https://github.com/fluid-dev/hexo-theme-fluid",
       avatar: "/img/favicon.png"
