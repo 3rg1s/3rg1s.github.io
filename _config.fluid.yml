@@ -57,7 +57,7 @@ code:
     # 实现高亮的库，对应下面的设置
     # Highlight library
     # Options: highlightjs | prismjs
-    lib: "highlightjs"
+    lib: "prismjs"
 
     highlightjs:
       # 在链接中挑选 style 填入
@@ -346,7 +346,9 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "Projects", link: "/Projects/", icon: "iconfont icon-link-fill" }
+
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -420,8 +422,6 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
-    <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
   '
 
@@ -475,7 +475,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "An elegant Material-Design theme for Hexo"
+    text: "Born to leash those who were borned unleashed"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -953,7 +953,7 @@ about:
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
   name: "Fluid"
-  intro: "An elegant theme for Hexo"
+  intro: "Born to leash those who were borned unleashed"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
@@ -981,7 +981,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://w0.peakpx.com/wallpaper/151/537/HD-wallpaper-sad-anime-boy-aesthetic-rain-depressed-anime-boys-window-lonely.jpg
   banner_img_height: 85
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
