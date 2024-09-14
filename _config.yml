@@ -9,7 +9,7 @@ description: '3rg1s personal blog'
 keywords:
 author: 3rg1s
 language: en
-timezone: 'Europe/Athens'
+timezone: 'Europe/Berlin'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
